@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     let persons = Person.getShuffledList()
-    
     var body: some View {
         TabView {
             ContactList(persons: persons)
@@ -18,8 +16,7 @@ struct ContentView: View {
                     Image(systemName: "person.3.fill")
                      Text("Contacts")
                 }
-            
-            ContactListExtended()
+            ContactListExtended(persons: persons)
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill.badge.questionmark")
                     Text("Extended Info")

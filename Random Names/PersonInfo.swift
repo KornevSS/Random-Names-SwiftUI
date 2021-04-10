@@ -8,19 +8,15 @@
 import SwiftUI
 
 struct PersonInfo: View {
-    
     let person: Person
-    
     var body: some View {
         VStack {
-            Image(systemName: "person.circle")
-                .resizable()
-                .frame(width: 200, height: 200, alignment: .center)
-                .foregroundColor(.gray)
-            Text(person.fullName)
+            PersonImage()
+            VStack(alignment: .leading) {
+               PhoneEmail(person: person)
+            }
         }
         .navigationBarTitle(person.fullName)
-
     }
 }
 

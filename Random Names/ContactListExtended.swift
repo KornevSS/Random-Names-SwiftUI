@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct ContactListExtended: View {
+    let persons: [Person]    
     var body: some View {
-        Text("Extended info")
+        NavigationView {
+            List {
+                ForEach(persons, id: \.self) { person in
+                    PersonExtendedRow(person: person)
+                }
+            }
+            .listStyle(GroupedListStyle())
+            .navigationBarTitle("Contacts")
+        }
     }
 }
 
 struct ContactListExtended_Previews: PreviewProvider {
     static var previews: some View {
-        ContactListExtended()
+        ContactListExtended(persons: Person.getShuffledList())
     }
 }
