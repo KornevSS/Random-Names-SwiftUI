@@ -12,9 +12,7 @@ struct PersonInfo: View {
     var body: some View {
         VStack {
             PersonImage()
-            VStack(alignment: .leading) {
-               PhoneEmail(person: person)
-            }
+            PhoneEmail(person: person)
         }
         .navigationBarTitle(person.fullName)
     }

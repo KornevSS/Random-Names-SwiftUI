@@ -17,7 +17,6 @@
 		7C52A68F261F71D900371728 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52A68E261F71D900371728 /* Person.swift */; };
 		7C52A693261F837900371728 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52A692261F837900371728 /* ContactList.swift */; };
 		7C52A696261F838C00371728 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52A695261F838C00371728 /* PersonInfo.swift */; };
-		7C52A69A261F83D000371728 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52A699261F83D000371728 /* NetworkManager.swift */; };
 		7C52A69F261F860300371728 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C52A69E261F860300371728 /* PersonRow.swift */; };
 		7CCF17DB26210AC200546EE1 /* ContactListExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF17DA26210AC200546EE1 /* ContactListExtended.swift */; };
 		7CFCC4EA2621B9AA008B86F3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCC4E72621B948008B86F3 /* DataManager.swift */; };
@@ -36,7 +35,6 @@
 		7C52A68E261F71D900371728 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7C52A692261F837900371728 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		7C52A695261F838C00371728 /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
-		7C52A699261F83D000371728 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7C52A69E261F860300371728 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
 		7CCF17DA26210AC200546EE1 /* ContactListExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListExtended.swift; sourceTree = "<group>"; };
 		7CFCC4E72621B948008B86F3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				7C2D115A2621B7F40038EE00 /* PersonImage.swift */,
 				7C2D11562621B5D20038EE00 /* PhoneEmail.swift */,
 				7CFCC4E72621B948008B86F3 /* DataManager.swift */,
-				7C52A699261F83D000371728 /* NetworkManager.swift */,
 				7C52A683261F6BE700371728 /* Info.plist */,
 				7C52A67E261F6BE700371728 /* Assets.xcassets */,
 				7C52A680261F6BE700371728 /* Preview Content */,
@@ -172,7 +169,6 @@
 				7C52A69F261F860300371728 /* PersonRow.swift in Sources */,
 				7C2D11532621B4770038EE00 /* PersonExtendedRow.swift in Sources */,
 				7C52A67D261F6BE500371728 /* ContentView.swift in Sources */,
-				7C52A69A261F83D000371728 /* NetworkManager.swift in Sources */,
 				7C52A693261F837900371728 /* ContactList.swift in Sources */,
 				7C52A68F261F71D900371728 /* Person.swift in Sources */,
 				7C2D115B2621B7F40038EE00 /* PersonImage.swift in Sources */,

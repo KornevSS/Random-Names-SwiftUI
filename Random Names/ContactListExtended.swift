@@ -17,7 +17,7 @@ struct ContactListExtended: View {
                 }
             }
             .listStyle(GroupedListStyle())
-            .navigationBarTitle("Contacts")
+            .navigationBarTitle("Full info")
         }
     }
 }

@@ -19,7 +19,7 @@ struct ContentView: View {
             ContactListExtended(persons: persons)
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill.badge.questionmark")
-                    Text("Extended Info")
+                    Text("Full Info")
                 }
         }
     }

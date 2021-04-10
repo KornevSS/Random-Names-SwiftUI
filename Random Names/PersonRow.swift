@@ -13,7 +13,7 @@ struct PersonRow: View {
         HStack {
             Image(systemName: "person.fill")
                 .resizable()
-                .frame(width: 40, height: 40)
+                .frame(width: 30, height: 30)
                 .foregroundColor(.blue)
             Text(person.fullName)
         }
