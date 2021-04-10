@@ -16,7 +16,7 @@ struct ContactList: View {
                     PersonRow(person: person)
                 }
             }
-            .navigationBarTitle("Contacts")
+            .navigationBarTitle("Contact list")
         }
     }    
 }

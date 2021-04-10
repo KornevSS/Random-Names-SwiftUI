@@ -14,12 +14,12 @@ struct ContentView: View {
             ContactList(persons: persons)
                 .tabItem {
                     Image(systemName: "person.3.fill")
-                     Text("Contacts")
+                     Text("Contact list")
                 }
             ContactListExtended(persons: persons)
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill.badge.questionmark")
-                    Text("Full Info")
+                    Text("Contact list&info")
                 }
         }
     }
